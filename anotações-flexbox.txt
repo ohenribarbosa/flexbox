@@ -1,0 +1,39 @@
+1.Estrutura Básica
+	Projetado como um modelo unidimensional e como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento.
+
+2.Diferença entre flex container e flex item
+
+->Flex container: é a tag que envolve os itens, será nela que será aplicada a propriedade "display: flex". Tranforma todos os seus itens filhos em flex itens.
+
+	# A propriedade display pode ser aplicado em qualquer tipo de tag, seja div, span, h1 ou mesmo em um "a". A partir do momento em que a tag possui itens filhos, ela é passível de ser aplicada a propriedade do "display: flex".
+
+Propriedades relacionadas:
+
+° display		° justify-content
+° flex-direction	° align-items
+° flex-wrap		° align-content
+° flex-flow
+
+1. Display: é o inicializador do container
+2. flex-direction: fará o direcionamento dos itens, seja em linha ou coluna.
+3. flex-wrap: vai ser aplicado para a quebra de linha, ou não.
+4. flex-flow: é uma abreviação pro direction e wrap.
+5. justify-content: alinha os itens do container de acordo com sua direção.
+6. align-items: alinha os itens de acordo com o eixo do container.
+7. align-content: alinha as linhas do container.
+
+->Flex-item: são os elementos filhos diretos do flex container. E também podem se tornar flex container.
+
+# É um processo recursivo. A partir do momento que há itens que podem ter filhos e esses filhos podem ter filhos, a propriedade do flex container pode ser aplicada.
+
+° flex-grow	° order
+° flex-basis	° align-self
+° flex-shrik
+° flex
+
+1. flex-grow: define o fator de crescimento do item.
+2. flex-basis: define o tamanho inicial do item antes da distribuição do espaço restante dentro do container.
+3. flex-shrink: define a capacidade de redução.
+4. flex: é uma abreviação para as propriedades 1, 2 e 3.
+5. order: é relacionado a ordem de distribuição e listagem dos itens.
+6. align-self: define o alinhamento de um item específico do container.
