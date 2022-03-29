@@ -22,9 +22,9 @@ Propriedades relacionadas:
 6. align-items: alinha os itens de acordo com o eixo do container.
 7. align-content: alinha as linhas do container.
 
-->Flex-item: são os elementos filhos diretos do flex container. E também podem se tornar flex container.
+->Flex items: são os elementos filhos diretos do flex container. E também podem se tornar flex container.
 
-# É um processo recursivo. A partir do momento que há itens que podem ter filhos e esses filhos podem ter filhos, a propriedade do flex container pode ser aplicada.
+# A partir do momento que há itens que podem ter filhos e esses filhos podem ter filhos, a propriedade do flex container pode ser aplicada.
 
 ° flex-grow	° order
 ° flex-basis	° align-self
@@ -37,3 +37,20 @@ Propriedades relacionadas:
 4. flex: é uma abreviação para as propriedades 1, 2 e 3.
 5. order: é relacionado a ordem de distribuição e listagem dos itens.
 6. align-self: define o alinhamento de um item específico do container.
+
+----> Display: flex -> torna a tag um elemento do tipo flex container, e assim automáticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
+/*
+            Modifica o comportamento, e cada item dentro do container passa a ocupar o máximo do seu conteúdo e se abriga dentro do container respeitando a orientação em linha.
+            
+            Inicializa o container, agrupa os elementos filhos e transforma-os de modo que respeitem o tamanho proporcional ao seu conteúdo.
+*/
+
+Um flex container tem por padrão o compartamento de orientação horizontal. Para modificar, usa-se a propriedade "flex-direction".
+
+---> Flex-direction> é a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
+
+Os eixos:
+- row (padrão): à direção do texto, esquerda para direita.
+- row-reverse: sentido oposto a direção do texto.
+- column: ordenação de cima para baixo, em coluna unica.
+- column-reverse: ordenação inversa, de baixo para cima.
