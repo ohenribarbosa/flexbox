@@ -54,3 +54,10 @@ Os eixos:
 - row-reverse: sentido oposto a direção do texto.
 - column: ordenação de cima para baixo, em coluna unica.
 - column-reverse: ordenação inversa, de baixo para cima.
+
+---> flex-wrap> é a propriedade que define se os itens devem ou não quebrar a linha. Por padrão eles não quebram linhas, isso faz com que os flex items sejam compactados além do limite do conteúdo.
+
+comportamentos:
+- nowrap: é o comportamento padrão, não permite a quebra de linha.
+- wrap: permite a quebra de linha assim que não puder mais ser compactado.
+- wrap-reverse: permite a quebra de linha assim que um dos flex itens não puder mais ser compactado, porém na direção contrária da linha, acima.
