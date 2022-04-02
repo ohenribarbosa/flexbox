@@ -38,6 +38,8 @@ Propriedades relacionadas:
 5. order: é relacionado a ordem de distribuição e listagem dos itens.
 6. align-self: define o alinhamento de um item específico do container.
 
+
+----------------> Flex container
 ----> Display: flex -> torna a tag um elemento do tipo flex container, e assim automáticamente todos os seus filhos diretos desta tag, tornam-se em flex items.
 /*
             Modifica o comportamento, e cada item dentro do container passa a ocupar o máximo do seu conteúdo e se abriga dentro do container respeitando a orientação em linha.
@@ -102,3 +104,10 @@ Tipos de alinhamento:
 - flex-end: alinhamento dos itens no final;
 - space-between: cria um espaçamento igual entre os elementos;
 - space-around: os espaçamento do meio são duas vezes maiores que o inicial e final.
+
+-------------> Flex item
+--> flex-grow: Define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos internos.
+
+OBS: não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container.
+
+O tipo de valor do flex-grow é numérico.
