@@ -125,3 +125,7 @@ Uma vez que definimos o flex-basis: 0 e tenhamos o flex-grow proporcinal para to
 
 --> flex-shrink: é a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
 > recebe valores numéricos, sendo "1" o valor padrão.
+
+--> flex: esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+> os valores podem ser numéricos ou "auto".
