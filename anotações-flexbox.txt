@@ -122,3 +122,6 @@ valores possíveis:
 -0 (zero): terá relação com a definição do flex-grow. 
 
 Uma vez que definimos o flex-basis: 0 e tenhamos o flex-grow proporcinal para todos os elementos, ele tentará ao máximo que os itens tenham um fator de crescimento referente.
+
+--> flex-shrink: é a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+> recebe valores numéricos, sendo "1" o valor padrão.
