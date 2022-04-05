@@ -129,3 +129,7 @@ Uma vez que definimos o flex-basis: 0 e tenhamos o flex-grow proporcinal para to
 --> flex: esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
 
 > os valores podem ser numéricos ou "auto".
+
+--> Order: lida com a ordem dos itens.
+> recebe valores numéricos.
+> valor padrão: 0
